@@ -5,7 +5,7 @@ import MovieList from "../components/movieList";
 import Footer from "../components/footer";
 
 const Home = () => (
-  <div>
+  <div className="home-page">
     <div className="container">
       <div className="row">
         <div className="col-lg-3">
@@ -20,6 +20,11 @@ const Home = () => (
       </div>
     </div>
     <Footer />
+    <style jsx>{`
+      .home-page {
+        padding-top: 80px;
+      }
+    `}</style>
   </div>
 );
 
