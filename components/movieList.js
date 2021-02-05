@@ -1,4 +1,6 @@
-const movieList = () => {
+import { useState } from "react";
+
+const movieList = (props) => {
   return (
     <>
       <div className="col-lg-4 col-md-6 mb-4">
